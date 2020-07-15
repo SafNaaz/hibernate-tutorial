@@ -12,9 +12,9 @@ public class TestJdbc {
 		String pass = "Naaz@6581";
 		
 		try{
-			System.out.println("connecting to db");
+			System.out.println("Connecting to db");
 			Connection connection = DriverManager.getConnection(jdbcUrl,user,pass);
-			System.out.println("connection success");
+			System.out.println("Connection success");
 		}catch(Exception e){
 			e.printStackTrace();
 		}
